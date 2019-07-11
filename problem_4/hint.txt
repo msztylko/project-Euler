@@ -1,0 +1,2 @@
+Info about slice notation was useful:
+https://stackoverflow.com/questions/509211/understanding-slice-notation?page=1&tab=votes#tab-top
