@@ -6,5 +6,3 @@ with open("problem_13.txt", "r") as f:
             sum += int(line)
 
     print("The 10 first digits of this sum are", str(sum)[:10])
-
-#CORRECT
