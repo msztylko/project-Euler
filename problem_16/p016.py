@@ -6,4 +6,3 @@ def sumDigits(number):
     return print(sum)
 
 sumDigits(2**1000)
-git s
