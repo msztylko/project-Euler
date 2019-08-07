@@ -1,44 +1,30 @@
-def isPrime(n):
-    if n < 2:
-        return False
-    i = 2
-    while (i * i <= n):
-        if n % i == 0:
+import eulerlib, itertools, sys
+
+if sys.version_info.major == 2:
+    filter = itertools.ifilter
+
+
+def compute():
+    ans = sum(itertools.islice(filter(is_truncatable_prime, itertools.count(10)), 11))
+    return str(ans)
+
+
+def is_truncatable_prime(n):
+    # Test if left-truncatable
+    i = 10
+    while i <= n:
+        if not eulerlib.is_prime(n % i):
             return False
-        i = i + 1
+        i *= 10
+
+    # Test if right-truncatable
+    while n > 0:
+        if not eulerlib.is_prime(n):
+            return False
+        n //= 10
     return True
 
-#Poprawić te funkcje bo na pewno nie działają z czymś co ma zera
-def isTruncableLeft(n):
-    if isPrime(n):
-        n = str(n)
-        for i in range(len(n) - 1):
-            n = n[1:]
-            if isPrime(int(n)):
-                continue
-            else:
-                return False
 
-        return True
+if __name__ == "__main__":
+    print(compute())
 
-
-def isTruncableLeft(n):
-    if isPrime(n):
-        n = str(n)
-        for i in range(len(n) - 1):
-            n = n[1:]
-            if isPrime(int(n)):
-                continue
-            else:
-                return False
-
-        return True
-
-
-def main():
-    return sum([i for i in range(11, 1000000, 2) if isPrime(i) and isTruncablePrime(i)])
-
-# if __name__ == "__main__":
-#     print(main())
-
-print(isTruncableLeft(3797))
