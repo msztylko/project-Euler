@@ -1,13 +1,28 @@
-f_number1 = 1
-f_number2 = 2
-limit = 4000000
-sum = 2
-while f_number2 < limit:
-    f_number1 = f_number1 + f_number2
-    if f_number1 % 2 == 0:
-        sum += f_number1
-    f_number2 = f_number2 + f_number1
-    if f_number2 % 2 == 0:
-        sum += f_number2
+def fibonacci(n):
+    if n < 0:
+        print("Incorrect input")
+    # First Fibonacci number is 0
+    elif n == 1:
+        return 0
+    # Second Fibonacci number is 1
+    elif n == 2:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
 
-print(sum)
+
+def solution():
+    sum = 0
+    i = 1
+    while fibonacci(i) < 4e6:
+        if fibonacci(i) % 2 == 0:
+            sum += fibonacci(i)
+            i += 1
+        else:
+            i += 1
+
+    return sum
+
+
+if __name__ == "__main__":
+    print("the sum of the even-valued terms below 4 million in Fibonacci sequence is equal {}".format(solution()))
