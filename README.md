@@ -8,5 +8,6 @@ Current tasks:
 [ ] Finish first 50 problems
 
 [ ] Refactor first 50 problems - suggestions welcome!
+ - Problem 2 - explore different ways of defining Fibonacci sequence, trying to improve performance
 
 [ ] Finish first 100 problems
