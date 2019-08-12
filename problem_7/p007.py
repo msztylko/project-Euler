@@ -16,7 +16,10 @@ def n_prime(n):
             if n == 0:
                 return i
         i = i + 1
-    return -1
+    return False
 
 print (n_prime(10001))
+
+
+
 
