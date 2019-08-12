@@ -1,7 +1,12 @@
-palindromes = []
-for a in range(1, 1000):
-    for b in range(1, 1000):
-        if str(a*b) == str(a*b)[::-1]:
-            palindromes.append(a*b)
+def is_palindrome(n):
+    n = str(n)
+    if n == n[::-1]:
+        return True
 
-print(max(palindromes))
+
+def solution():
+    return max(a * b for a in range(100, 1000) for b in range(100, 1000) if is_palindrome(str(a * b)))
+
+
+if __name__ == "__main__":
+    print("The largest palindrome made from the product of two 3-digit numbers is {}".format(solution()))
