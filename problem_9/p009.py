@@ -1,11 +1,11 @@
-import math
+def solution():
+    LIMIT = 1000
+    for a in range(1, LIMIT + 1):
+        for b in range(a + 1, LIMIT + 1):
+            c = LIMIT - a - b
+            if a * a + b * b == c * c:
+                return a * b * c
 
-for a in range(1, 400):
-    for b in range(1, 400):
-        c = math.sqrt(a**2 + b**2)
-        if c.is_integer() and  a + b + c == 1000:
-           print(a, b, c, a*b*c)
 
-
-#CORRECT
-
+if __name__ == "__main__":
+	print(solution())
