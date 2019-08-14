@@ -10,5 +10,6 @@ Current tasks:
 [ ] Refactor first 50 problems - suggestions welcome!
  - Problem 2 - explore different ways of defining Fibonacci sequence, trying to improve performance
  - Problem 7 - try to improve performance
- - Problem 11 
+ - Problem 11
+ 
 [ ] Finish first 100 problems
