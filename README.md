@@ -11,5 +11,6 @@ Current tasks:
  - Problem 2 - explore different ways of defining Fibonacci sequence, trying to improve performance
  - Problem 7 - try to improve performance
  - Problem 11
+ - Problem 13  
  
 [ ] Finish first 100 problems
