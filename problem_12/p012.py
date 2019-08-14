@@ -1,21 +1,38 @@
-def triangleNumber(n):
-    return sum ( [ i for i in range(1, n + 1) ] )
+import cProfile
+import math
 
-j = 0
-n = 0
-numberOfDivisors = 0
+#Initial code was super slow, so I used C Profiler to find out that the problems were caused by num_divisors function.
+#The function was implemented with new logic and works much faster now.
 
-while numberOfDivisors <= 500:
-    numberOfDivisors = 0
-    j += 1
-    n = triangleNumber(j)
+def triangle_number(n):
+    return sum(i for i in range(1, n + 1))
 
-    i = 1
-    while i <= n**0.5:
+#Initial num_divisors function
+def num_divisors(n):
+    counter = 0
+    for i in range(1, n + 1):
         if n % i == 0:
-            numberOfDivisors += 1
+            counter += 1
+
+    return counter
+#    return len([i for i in range(1, n + 1) if n % i == 0]) #A bit slower than the version above
+
+# def num_divisors(n):
+#     divs = [1]
+#     for i in range(2, int(math.sqrt(n)) + 1):
+#         if n % i == 0:
+#             divs.extend([i, n / i])
+#     divs.extend([n])
+#     return len(set(divs))
+
+
+def solution():
+    i = 1
+    while num_divisors(triangle_number(i)) < 500:
         i += 1
+    return triangle_number(i)
 
-    numberOfDivisors *= 2
 
-print ("Solution: ", n)
+if __name__ == "__main__":
+    print("The value of the first triangle number to have over five hundred divisors is {}".format(solution()))
+    cProfile.run('solution()', sort='cumtime')
