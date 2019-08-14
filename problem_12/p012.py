@@ -7,23 +7,23 @@ import math
 def triangle_number(n):
     return sum(i for i in range(1, n + 1))
 
-#Initial num_divisors function
-def num_divisors(n):
-    counter = 0
-    for i in range(1, n + 1):
-        if n % i == 0:
-            counter += 1
-
-    return counter
-#    return len([i for i in range(1, n + 1) if n % i == 0]) #A bit slower than the version above
-
+# #Initial num_divisors function
 # def num_divisors(n):
-#     divs = [1]
-#     for i in range(2, int(math.sqrt(n)) + 1):
+#     counter = 0
+#     for i in range(1, n + 1):
 #         if n % i == 0:
-#             divs.extend([i, n / i])
-#     divs.extend([n])
-#     return len(set(divs))
+#             counter += 1
+#
+#     return counter
+# #    return len([i for i in range(1, n + 1) if n % i == 0]) #A bit slower than the version above
+
+def num_divisors(n):
+    divs = [1]
+    for i in range(2, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            divs.extend([i, n / i])
+    divs.extend([n])
+    return len(set(divs))
 
 
 def solution():
@@ -35,4 +35,4 @@ def solution():
 
 if __name__ == "__main__":
     print("The value of the first triangle number to have over five hundred divisors is {}".format(solution()))
-    cProfile.run('solution()', sort='cumtime')
+#    cProfile.run('solution()', sort='cumtime')
