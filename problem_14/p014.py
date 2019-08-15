@@ -10,12 +10,17 @@ def Collatz_len(n):
 
     return counter
 
-longest = 0
-number = 0
-for i in range(1000001):
-    if Collatz_len(i) > longest:
-        longest = Collatz_len(i)
-        number = i
 
-print(longest, number)
+def solution():
+    longest = 0
+    number = 0
+    for i in range(1000001):
+        if Collatz_len(i) > longest:
+            longest = Collatz_len(i)
+            number = i
+
+    return number
+
+if __name__ == "__main__":
+    print("The longest Collatz sequence is produced by number {}".format((solution())))
 
