@@ -1,7 +1,6 @@
-def sumDigits(n):
-    solution = sum(int(i) for i in str(n))
+def solution(n):
+    return sum(int(i) for i in str(n))
 
-    return solution
 
 def factorial(n):
     factorial = 1
@@ -10,8 +9,8 @@ def factorial(n):
 
     return factorial
 
-print(sumDigits(factorial(100)))
-
+if __name__ == "__main__":
+    print("The sum of the digits in the number 100! is equal {}".format(solution(factorial(100))))
 
 
 
