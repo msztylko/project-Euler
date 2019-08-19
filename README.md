@@ -17,5 +17,6 @@ Current tasks:
  - Problem 18
  - Problem 21
  - Problem 22
+ - Problem 25
  
 [ ] Finish first 100 problems
