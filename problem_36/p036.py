@@ -14,9 +14,10 @@ def decimalPalindromic(n):
         return False
 
 
-def main():
+def solution():
     return sum([i for i in range(1000000) if decimalPalindromic(i) and binaryPalindromic(i)])
 
 
 if __name__ == "__main__":
-    print(main())
+    print("The sum of all numbers, less than one million, "
+          "which are palindromic in base 10 and base 2 is equal {}".format(solution()))
