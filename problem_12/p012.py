@@ -15,7 +15,7 @@ def triangle_number(n):
 #             counter += 1
 #
 #     return counter
-# #    return len([i for i in range(1, n + 1) if n % i == 0]) #A bit slower than the version above
+# #    return len([i for i in range(1, n + 1) if n % i == 0]) #A bit slower than the version below
 
 def num_divisors(n):
     divs = [1]
@@ -35,4 +35,4 @@ def solution():
 
 if __name__ == "__main__":
     print("The value of the first triangle number to have over five hundred divisors is {}".format(solution()))
-#    cProfile.run('solution()', sort='cumtime')
+    cProfile.run('solution()', sort='cumtime')
