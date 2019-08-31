@@ -1,25 +1,21 @@
 def is_prime(n):
-    if n < 2:
-        return False
-    i = 2
-    while (i * i <= n):
+    for i in range(2, n // 2 + 1):
         if n % i == 0:
             return False
-        i = i + 1
+
     return True
 
-def n_prime(n):
-    i = 2
-    while n > 0:
-        if is_prime(i):
-            n = n - 1
-            if n == 0:
-                return i
-        i = i + 1
-    return False
 
-print (n_prime(10001))
+def nth_prime(n):
+    index = 1
+    number = 2
+    while index != n:
+        number += 1
+        if is_prime(number):
+            index += 1
 
+    return number
 
 
-
+if __name__ == "__main__":
+    print("The 10 001st prime number is equal {}".format(nth_prime(10001)))
