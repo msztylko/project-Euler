@@ -12,7 +12,7 @@ Current tasks:
  - Problem 5 - try to improve performance, right now takes more than 60 seconds
  - Problem 7 - try to improve performance, right now takes more than 10 seconds
  - Problem 10 - try to improve performance, right now takes more than 15 seconds
- - Problem 11 - change reading data from file
+ - Problem 11 - reading from file improved, the rest of the code could be more elegant
  - Problem 13  
  - Problem 15  
  - Problem 17
