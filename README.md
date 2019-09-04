@@ -23,5 +23,23 @@ Current tasks:
  - Problem 23
  - Problem 24 - code without using itertools
  - Problem 25 - needs changes to code structure and Fibonacci to explore code optimization
+ - Problem 26
+ - Problem 27 - code without using itertools
+ - Problem 28 code brute force solution
+ - Problem 31
+ - Problem 32 change code structure
+ - Problem 33 change code structure
+ - Problem 34 think about the range 
+ - Problem 35 - try to improve performance, right now takes more than 60 seconds
+ - Problem 37
+ - Problem 38
+ - Problem 39
+ - Problem 40
+ 
  
 [ ] Finish first 100 problems
+
+[ ] Code optimization - for every problem that runs longer than 5 seconds in brute force solution add optimized solution
+
+[ ] Change project structure - different naming scheme + move problem description to README and explains maths behind it wherever brute force solution is not sufficient
+
