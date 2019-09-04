@@ -5,7 +5,7 @@ gain experience in algorithms, data structures, and object-oriented programming.
 
 Current tasks:
 
-[ ] Finish first 50 problems
+[ ] Finish first 50 problems - Problems 47, 49 and 50
 
 [ ] Refactor first 50 problems - suggestions welcome!
  - Problem 2 - explore different ways of defining Fibonacci sequence, trying to improve performance
@@ -15,11 +15,13 @@ Current tasks:
  - Problem 11 - reading from file improved, the rest of the code could be more elegant
  - Problem 12 - first problem where I used profiler, needs more exploration
  - Problem 14 - try to improve performance, right now takes more than 10 seconds
- - Problem 15  
+ - Problem 15 - code brute force solution
  - Problem 17
- - Problem 18
- - Problem 21
+ - Problem 18 - code brute force solution
+ - Problem 19
  - Problem 22
- - Problem 25
+ - Problem 23
+ - Problem 24 - code without using itertools
+ - Problem 25 - needs changes to code structure and Fibonacci to explore code optimization
  
 [ ] Finish first 100 problems
