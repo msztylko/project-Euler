@@ -1,6 +1,6 @@
 def sumProperDivisors(n):
     divisors = 0
-    limit  = int(n/2 + 1)
+    limit = int(n/2 + 1)
     for i in range(1, limit):
         if n % i == 0:
             divisors += i
@@ -19,5 +19,4 @@ def amicablePair():
     return amicablePair
 
 
-print(amicablePair())
 print("sum of all the amicable numbers under 10000 is equal ", sum(amicablePair().values()) + sum(amicablePair().keys()))
