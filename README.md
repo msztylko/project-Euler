@@ -25,16 +25,28 @@ Current tasks:
  - Problem 25 - needs changes to code structure and Fibonacci to explore code optimization
  - Problem 26
  - Problem 27 - code without using itertools
- - Problem 28 code brute force solution
+ - Problem 28 - code brute force solution
  - Problem 31
- - Problem 32 change code structure
- - Problem 33 change code structure
- - Problem 34 think about the range 
+ - Problem 32 - change code structure
+ - Problem 33 - change code structure
+ - Problem 34 - think about the range 
  - Problem 35 - try to improve performance, right now takes more than 60 seconds
  - Problem 37
  - Problem 38
  - Problem 39
  - Problem 40
+ - Problem 41 - try to improve performance, right now takes more than 60 seconds
+ - Problem 42 - read data in a different way
+ - Problem 43 - code without using itertools
+ - Problem 44
+ - Problem 45
+ - Problem 46
+ - Problem 47
+ - Problem 48
+ - Problem 49
+ - Problem 50
+ 
+ 
  
  
 [ ] Finish first 100 problems
