@@ -16,7 +16,6 @@ Current tasks:
  - Problem 12 - first problem where I used profiler, needs more exploration
  - Problem 14 - try to improve performance, right now takes more than 10 seconds
  - Problem 15 - code brute force solution
- - Problem 17
  - Problem 18 - code brute force solution
  - Problem 19
  - Problem 22
