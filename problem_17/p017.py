@@ -1,8 +1,6 @@
-def compute():
-	ans = sum(len(to_english(i)) for i in range(1, 1001))
-
-	return str(ans)
-
+ONES = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
+        "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
+TENS = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
 
 def to_english(n):
 	if 0 <= n < 20:
@@ -17,10 +15,9 @@ def to_english(n):
 		raise ValueError()
 
 
-ONES = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
-        "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
-TENS = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
+def solution():
+	return sum(len(to_english(i)) for i in range(1, 1001))
 
 
 if __name__ == "__main__":
-	print(compute())
+	print(solution())
