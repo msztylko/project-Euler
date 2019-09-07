@@ -47,7 +47,6 @@ Current tasks:
  
  
  
- 
 [ ] Finish first 100 problems
 
 [ ] Code optimization - for every problem that runs longer than 5 seconds in brute force solution add optimized solution
