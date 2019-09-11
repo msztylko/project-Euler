@@ -45,6 +45,7 @@ Current tasks:
  - Problem 49
  - Problem 50
  - Problem 51
+ - Problem 52
  
 [ ] Finish first 100 problems
 
