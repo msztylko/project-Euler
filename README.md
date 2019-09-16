@@ -44,11 +44,12 @@ Current tasks:
  - Problem 48
  - Problem 49
  - Problem 50
+ 
+[ ] Finish first 100 problems
+
  - Problem 51
  - Problem 52
  - Problem 53
- 
-[ ] Finish first 100 problems
 
 [ ] Code optimization - for every problem that runs longer than 5 seconds in brute force solution add optimized solution
 
