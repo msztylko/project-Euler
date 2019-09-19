@@ -51,6 +51,7 @@ Current tasks:
  - Problem 52
  - Problem 53
  - Problem 54
+ - Problem 55
 
 [ ] Code optimization - for every problem that runs longer than 5 seconds in brute force solution add optimized solution
 
