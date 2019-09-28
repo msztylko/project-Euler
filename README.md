@@ -7,7 +7,7 @@ Current tasks:
 
 [ ] Finish first 50 problems - Problems 49 and 50
 
-[ ] Refactor first 50 problems - suggestions welcome!
+[ ] Refactor first 25 problems 
  - Problem 2 - explore different ways of defining Fibonacci sequence, trying to improve performance
  - Problem 5 - try to improve performance, right now takes more than 60 seconds
  - Problem 7 - try to improve performance, right now takes more than 10 seconds
@@ -22,6 +22,8 @@ Current tasks:
  - Problem 23
  - Problem 24 - code without using itertools
  - Problem 25 - needs changes to code structure and Fibonacci to explore code optimization
+ 
+ [ ] Refactor problems 26 - 50
  - Problem 26
  - Problem 27 - code without using itertools
  - Problem 28 - code brute force solution
@@ -47,10 +49,7 @@ Current tasks:
  
 [ ] Finish first 100 problems
 
- - Problem 51
- - Problem 52
- - Problem 53
- - Problem 54
+ - Problem 52 - code without using itertools
  - Problem 55
  - Problem 56
  - Problem 57
