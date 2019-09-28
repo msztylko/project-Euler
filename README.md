@@ -60,5 +60,5 @@ Current tasks:
 
 [ ] Code optimization - for every problem that runs longer than 5 seconds in brute force solution add optimized solution
 
-[ ] Change project structure - different naming scheme + move problem description to README and explains maths behind it wherever brute force solution is not sufficient
+[ ] Change project structure - different naming scheme + move problem description to README and explain maths behind it wherever brute force solution is not sufficient
 
