@@ -16,7 +16,6 @@ Current tasks:
  - Problem 12 - first problem where I used profiler, needs more exploration
  - Problem 14 - try to improve performance, right now takes more than 10 seconds
  - Problem 15 - code brute force solution
- - Problem 17
  - Problem 18 - code brute force solution
  - Problem 19
  - Problem 22
@@ -46,12 +45,20 @@ Current tasks:
  - Problem 49
  - Problem 50
  
- 
- 
- 
 [ ] Finish first 100 problems
+
+ - Problem 51
+ - Problem 52
+ - Problem 53
+ - Problem 54
+ - Problem 55
+ - Problem 56
+ - Problem 57
+ - Problem 58
+ - Problem 59
+
 
 [ ] Code optimization - for every problem that runs longer than 5 seconds in brute force solution add optimized solution
 
-[ ] Change project structure - different naming scheme + move problem description to README and explains maths behind it wherever brute force solution is not sufficient
+[ ] Change project structure - different naming scheme + move problem description to README and explain maths behind it wherever brute force solution is not sufficient
 
