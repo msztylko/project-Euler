@@ -44,7 +44,7 @@ Current tasks:
  - Problem 46
  - Problem 47 - terrible code that needs refactorization 
  - Problem 48
- - Problem 49
+ - Problem 49 - explain logic behind the solution
  - Problem 50
  
 [ ] Finish first 100 problems
