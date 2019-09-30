@@ -5,8 +5,7 @@ gain experience in algorithms, data structures, and object-oriented programming.
 
 Current tasks:
 
-
-[ ] Finish first 50 problems - Problems 49 and 50
+[ ] Finish first 50 problems - Problem 50
 
 [ ] Refactor first 25 problems 
  - Problem 2 - explore different ways of defining Fibonacci sequence, trying to improve performance
