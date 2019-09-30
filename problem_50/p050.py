@@ -1,25 +1,39 @@
-def is_prime(n):
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
+def euler(n):
+    candidates = list(range(n + 1))
+    fin = int(n ** 0.5)
 
-    return True
+    for i in range(2, fin + 1):
+        if not candidates[i]:
+            continue
 
-primes = []
-for i in range(1, 1000):
-    if is_prime(i):
-        primes.append(i)
+        candidates[2 * i::i] = [None] * (n // i - 1)
 
-i = 4
-sum = 0
-while i < 25:
-    sum += primes[i]
-    i += 1
-    print(i, sum)
+    return [i for i in candidates[2:] if i]
 
 
-sums = []
-for i in range()
+def main():
+    primes = euler(1000000)
+    largest = 0
+    chain = []
+    for start in range(10):
+        seq = primes[start:]
+        i = 0
+        total = 0
+        for prime in seq:
+            total += prime
+            if total > 1000000:
+                break
+            i += 1
+            if total in primes:
+                c = seq[:i]
+                if len(c) > len(chain):
+                    chain = c
+    print(sum(chain))
+
+
+if __name__ == "__main__":
+    main()
+
 
 
 
