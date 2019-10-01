@@ -1,3 +1,7 @@
+import time
+
+start = time.time()
+
 def fibonacci(n):
     if n < 0:
         print("Incorrect input")
@@ -25,4 +29,8 @@ def solution():
 
 
 if __name__ == "__main__":
-    print("the sum of the even-valued terms below 4 million in Fibonacci sequence is equal {}".format(solution()))
+    print("the sum of the even-valued terms below 4 million in Fibonacci sequence is equal {}".format(solution()))\
+
+end = time.time()
+
+print("solution calculated in ", end - start, "seconds")
