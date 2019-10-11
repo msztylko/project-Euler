@@ -12,7 +12,7 @@ Current tasks:
  - Problem 5 - try to improve performance, right now takes more than 60 seconds
  - Problem 7 - try to improve performance, right now takes more than 10 seconds
  - Problem 10 - try to improve performance, right now takes more than 15 seconds
- - Problem 11 - reading from file improved, the rest of the code could be more elegant
+ - Problem 11 - reading from file improved, the rest of the code could be more elegant, correct README
  - Problem 12 - first problem where I used profiler, needs more exploration
  - Problem 14 - try to improve performance, right now takes more than 10 seconds
  - Problem 15 - code brute force solution
