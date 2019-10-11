@@ -14,6 +14,7 @@ Current tasks:
  - Problem 10 - try to improve performance, right now takes more than 15 seconds
  - Problem 11 - reading from file improved, the rest of the code could be more elegant, correct README
  - Problem 12 - first problem where I used profiler, needs more exploration
+ - Problem 13 - correct README, double space
  - Problem 14 - try to improve performance, right now takes more than 10 seconds
  - Problem 15 - code brute force solution
  - Problem 18 - code brute force solution
