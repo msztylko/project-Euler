@@ -19,3 +19,34 @@ My first brute force soultion run for 170 seconds and I decided to optimize it w
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
         
 ```
+In the first solution `evenly_divisible()` function allowed to provide general arguments but just hardcoding its range allowed to speed up the program.
+
+```
+         232792564 function calls in 154.530 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  154.530  154.530 {built-in method builtins.exec}
+        1    0.000    0.000  154.530  154.530 <string>:1(<module>)
+        1   40.863   40.863  154.530  154.530 p005.py:10(solution)
+232792560  113.667    0.000  113.667    0.000 p005.py:1(evenly_divisible)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+```
+Since we know that the solution has to be a multiple of 20 we can change the main loop so that it only checks multiples of 20. This change led to significant speed up as the number of function call was greatly reduced.
+
+```
+         11639632 function calls in 8.376 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    8.376    8.376 {built-in method builtins.exec}
+        1    0.000    0.000    8.376    8.376 <string>:1(<module>)
+        1    1.959    1.959    8.376    8.376 p005.py:10(solution)
+ 11639628    6.417    0.000    6.417    0.000 p005.py:1(evenly_divisible)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+```
+
+       
+
