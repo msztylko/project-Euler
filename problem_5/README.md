@@ -48,5 +48,5 @@ Since we know that the solution has to be a multiple of 20 we can change the mai
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 ```
 
-       
+Optimization lesson - If the code involves loops try to limit their range and check if it's possible to increament by a number bigger than one       
 
