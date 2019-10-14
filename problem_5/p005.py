@@ -7,6 +7,7 @@ def evenly_divisible(n):
 
     return True
 
+
 def solution():
     n = 20
     while not evenly_divisible(n):
@@ -16,10 +17,10 @@ def solution():
 
 
 if __name__ == "__main__":
-    import cProfile
+#    import cProfile
     print("The smallest positive number that is evenly divisible "
           "by all of the numbers from 1 to 20 is {}".format(solution()))
-    cProfile.run('solution()', sort='cumtime')
+#    cProfile.run('solution()', sort='cumtime')
 
 
 
