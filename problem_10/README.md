@@ -5,7 +5,8 @@ The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 Find the sum of all the primes below two million.
 
 Initial solution with standard `is_prime()` function.
-```def is_prime(n):
+```
+def is_prime(n):
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
             return False
@@ -29,7 +30,7 @@ It run for 15 seconds
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 ```
 
-Soma change to `is_prime()` function:
+Changing the algorithm based on the information from https://en.wikipedia.org/wiki/Primality_test
 
 ```
 def is_prime(n):
@@ -49,7 +50,8 @@ def is_prime(n):
 
 was enough to improve the performance:
 
-```         2148938 function calls in 7.392 seconds
+```      
+2148938 function calls in 7.392 seconds
 
    Ordered by: cumulative time
 
