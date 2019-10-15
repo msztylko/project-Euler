@@ -1,11 +1,14 @@
+# Project Euler
+
 My solutions to Project Euler problems from https://projecteuler.net/
 
 The main goal of this project is to help me become proficient user of Python, improve my problem-solving skills and 
 gain experience in algorithms, data structures, and object-oriented programming.
 
-Current tasks:
+## Current tasks:
 
-[ ] Review first 20 solutions - correct README and optimization lessons
+[ ] Review first 20 solutions - correct README and optimization lessons (10/20), To do - problem 2 fibonacci
+optimization lessons - p5, p7, p10 write optimization lesson
 
 - [x] Finish first 50 problems
 
