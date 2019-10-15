@@ -4,7 +4,7 @@
 
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
-My first brute force soultion run for 170 seconds and I decided to optimize it with the help of cProfile module. The output from the profiler:
+My first brute force solution run for 170 seconds and I decided to optimize it with the help of `cProfile` module. The output from the profiler:
 
 ```
          232792564 function calls in 168.962 seconds
@@ -19,7 +19,7 @@ My first brute force soultion run for 170 seconds and I decided to optimize it w
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
         
 ```
-In the first solution `evenly_divisible()` function allowed to provide general arguments but just hardcoding its range allowed to speed up the program.
+In the first solution `evenly_divisible()` function accepted general arguments, but hardcoding its range allowed to speed up the program.
 
 ```
          232792564 function calls in 154.530 seconds
@@ -33,7 +33,7 @@ In the first solution `evenly_divisible()` function allowed to provide general a
 232792560  113.667    0.000  113.667    0.000 p005.py:1(evenly_divisible)
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 ```
-Since we know that the solution has to be a multiple of 20 we can change the main loop so that it only checks multiples of 20. This change led to significant speed up as the number of function call was greatly reduced.
+Since we know that the solution has to be a multiple of 20 we can change the main loop so that it only checks multiples of 20. This change led to significant speed-up as the number of function call was greatly reduced.
 
 ```
          11639632 function calls in 8.376 seconds
