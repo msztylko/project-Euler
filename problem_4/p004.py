@@ -5,7 +5,7 @@ def is_palindrome(n):
 
 
 def solution():
-    return max(a * b for a in range(100, 1000) for b in range(100, 1000) if is_palindrome(str(a * b)))
+    return max(a * b for a in range(100, 1000) for b in range(100, 1000) if is_palindrome(a * b))
 
 
 if __name__ == "__main__":
