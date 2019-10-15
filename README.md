@@ -5,12 +5,12 @@ gain experience in algorithms, data structures, and object-oriented programming.
 
 Current tasks:
 
+[ ] Review first 20 solutions - correct README and optimization lessons
+
 - [x] Finish first 50 problems
 
 [ ] Refactor first 25 problems 
  - Problem 2 - explore different ways of defining Fibonacci sequence, trying to improve performance
- - Problem 7 - try to improve performance, right now takes more than 10 seconds
- - Problem 10 - try to improve performance, right now takes more than 15 seconds
  - Problem 11 - reading from file improved, the rest of the code could be more elegant, correct README
  - Problem 12 - first problem where I used profiler, needs more exploration
  - Problem 13 - correct README, double space
