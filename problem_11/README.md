@@ -29,3 +29,6 @@ In the 20×20 grid below, four numbers along a diagonal line have been marked in
 The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 
 What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
+
+
+I changed my initial solution using list comprehension to make it more compact, but I suspect that code in the current form would be readable only to me. I will have to think about a better way to present my solution.

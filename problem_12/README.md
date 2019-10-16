@@ -17,3 +17,53 @@ Let us list the factors of the first seven triangle numbers:
 We can see that 28 is the first triangle number to have over five divisors.
 
 What is the value of the first triangle number to have over five hundred divisors?
+
+## Solution
+
+My initial solution used explicit summation to compute triangle numbers:
+
+```
+def triangle_number(n):
+    return sum(i for i in range(1, n + 1))
+```
+
+and it's performanced needed improvements:
+
+```
+         76938222 function calls in 20.551 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   20.551   20.551 {built-in method builtins.exec}
+        1    0.000    0.000   20.551   20.551 <string>:1(<module>)
+        1    0.014    0.014   20.551   20.551 p012.py:17(solution)
+    12376    0.017    0.000   15.662    0.001 p012.py:3(triangle_number)
+    12376    8.032    0.001   15.645    0.001 {built-in method builtins.sum}
+ 76601251    7.613    0.000    7.613    0.000 p012.py:4(<genexpr>)
+    12375    4.831    0.000    4.875    0.000 p012.py:8(count_divisors)
+   275090    0.035    0.000    0.035    0.000 {method 'extend' of 'list' objects}
+    12375    0.007    0.000    0.007    0.000 {built-in method math.sqrt}
+    12375    0.002    0.000    0.002    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+```
+
+Replacing explicit summation with its closed-form expression i.e. n*(n+1)/2 made code significantly faster:
+
+```
+         324595 function calls in 3.604 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    3.604    3.604 {built-in method builtins.exec}
+        1    0.000    0.000    3.604    3.604 <string>:1(<module>)
+        1    0.008    0.008    3.604    3.604 p012.py:16(solution)
+    12375    3.565    0.000    3.592    0.000 p012.py:7(count_divisors)
+   275090    0.023    0.000    0.023    0.000 {method 'extend' of 'list' objects}
+    12376    0.004    0.000    0.004    0.000 p012.py:3(triangle_number)
+    12375    0.003    0.000    0.003    0.000 {built-in method math.sqrt}
+    12375    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+```
+Optimization lesson - try to express problem in a different way.
