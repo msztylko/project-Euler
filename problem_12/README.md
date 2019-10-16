@@ -27,7 +27,7 @@ def triangle_number(n):
     return sum(i for i in range(1, n + 1))
 ```
 
-and it's performanced needed improvements:
+and its performance needed improvements:
 
 ```
          76938222 function calls in 20.551 seconds
