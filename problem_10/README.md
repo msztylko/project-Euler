@@ -64,3 +64,5 @@ was enough to improve the performance:
   1999999    7.057    0.000    7.057    0.000 p010.py:1(is_prime)
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 ```
+
+Optimization lesson - look for the optimized version of your algorithm.
