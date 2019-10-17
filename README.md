@@ -7,20 +7,14 @@ gain experience in algorithms, data structures, and object-oriented programming.
 
 ## Current tasks:
 
-[ ] Review first 20 solutions - correct README and optimization lessons (10/20), To do - problem 2 fibonacci
-optimization lessons - p5, p7, p10 write optimization lesson
-
 - [x] Finish first 50 problems
 
 [ ] Refactor first 25 problems 
  - Problem 2 - explore different ways of defining Fibonacci sequence, trying to improve performance
- - Problem 11 - reading from file improved, the rest of the code could be more elegant, correct README
- - Problem 12 - first problem where I used profiler, needs more exploration
- - Problem 13 - correct README, double space
- - Problem 14 - try to improve performance, right now takes more than 10 seconds
- - Problem 15 - code brute force solution, correct README insert images
+ - Problem 11 - needs better code structure
+ - Problem 15 - code brute force solution
  - Problem 18 - code brute force solution
- - Problem 19
+ - Problem 19 - refactor
  - Problem 22
  - Problem 23
  - Problem 24 - code without using itertools
@@ -64,5 +58,5 @@ optimization lessons - p5, p7, p10 write optimization lesson
 
 [ ] Code optimization - for every problem that runs longer than 5 seconds in brute force solution add optimized solution. Collect methods used for optimization and write them down.
 
-[ ] Change project structure - different naming scheme + move problem description to README and explain maths behind it wherever brute force solution is not sufficient
+[ ] Change project structure - different naming scheme + move problem description to README and explain maths behind it wherever brute force solution is not sufficient.
 
