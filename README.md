@@ -60,3 +60,4 @@ gain experience in algorithms, data structures, and object-oriented programming.
 
 [ ] Change project structure - different naming scheme + move problem description to README and explain maths behind it wherever brute force solution is not sufficient.
 
+[ ] Refactoring - for each problem move description to README, use f-strings for formatting, learn more general information about refactoring
