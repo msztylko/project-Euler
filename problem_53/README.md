@@ -10,5 +10,5 @@ In general, <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{pmatrix}&
 
 It is not until n=23, that a value exceeds one-million: <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{pmatrix}&space;23\\&space;10&space;\end{pmatrix}&space;=&space;1144066" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{pmatrix}&space;23\\&space;10&space;\end{pmatrix}&space;=&space;1144066" title="\begin{pmatrix} 23\\ 10 \end{pmatrix} = 1144066" /></a>
 
-How many, not necessarily distinct, values of (nr) for 1≤n≤100, are greater than one-million?
+How many, not necessarily distinct, values of <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{pmatrix}&space;n\\&space;r&space;\end{pmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{pmatrix}&space;n\\&space;r&space;\end{pmatrix}" title="\begin{pmatrix} n\\ r \end{pmatrix}" /></a> for 1≤n≤100, are greater than one-million?
 
