@@ -55,6 +55,7 @@ gain experience in algorithms, data structures, and object-oriented programming.
  - Problem 60
  - Problem 61
  - Problem 62
+ - Problem 63
 
 
 [ ] Code optimization - for every problem that runs longer than 5 seconds in brute force solution add optimized solution. Collect methods used for optimization and write them down.
