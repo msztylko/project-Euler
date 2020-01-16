@@ -47,22 +47,6 @@ gain experience in algorithms, data structures, and object-oriented programming.
 [ ] Finish first 100 problems
 
  - Problem 52 - code without using itertools
- - Problem 55
- - Problem 56
- - Problem 57
- - Problem 58
- - Problem 59
- - Problem 60
- - Problem 61
- - Problem 62
- - Problem 63
- - Problem 64
- - Problem 65
- - Problem 66
- - Problem 67
- - Problem 68
- - Problem 69
- - Problem 70
  
  
 [ ] Code optimization - for every problem that runs longer than 5 seconds in brute force solution add optimized solution. Collect methods used for optimization and write them down.
