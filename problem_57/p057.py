@@ -9,4 +9,5 @@ def solution(N=1000):
             counter += 1
     return counter
 
-print(solution())
+if __name__ == "__main__":
+    print(f"Number of fractions that contain a numerator with more digits than the denominator {solution()}")
