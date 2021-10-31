@@ -1,11 +1,13 @@
 import time
+from typing import Any
 
 start = time.time()
 
 
-def fibonacci(n):
+def fibonacci(n: int) -> int:
     if n < 0:
         print("Incorrect input")
+        return 0
     # First Fibonacci number is 0
     elif n == 1:
         return 0
@@ -16,7 +18,7 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-def solution():
+def solution() -> int:
     sum = 0
     i = 1
     while fibonacci(i) < 4e6:
