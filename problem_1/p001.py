@@ -3,4 +3,8 @@ def solution():
 
 
 if __name__ == "__main__":
-    print("The sum of all the multiples of 3 or 5 below 1000 is equal to {}".format(solution()))
+    print(
+        "The sum of all the multiples of 3 or 5 below 1000 is equal to {}".format(
+            solution()
+        )
+    )
