@@ -17,7 +17,7 @@ My first brute force solution run for 170 seconds and I decided to optimize it w
         1   44.883   44.883  168.961  168.961 p005.py:10(solution)
 232792560  124.079    0.000  124.079    0.000 p005.py:1(evenly_divisible)
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-        
+
 ```
 In the first solution `evenly_divisible()` function accepted general arguments, but hardcoding its range allowed to speed up the program.
 
@@ -48,5 +48,4 @@ Since we know that the solution has to be a multiple of 20 we can change the mai
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 ```
 
-Optimization lesson - If the code involves loops try to limit their range and check if it's possible to increament by a number bigger than one. 
-
+Optimization lesson - If the code involves loops try to limit their range and check if it's possible to increament by a number bigger than one.

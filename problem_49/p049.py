@@ -1,5 +1,5 @@
 def is_prime(n):
-    for i in range(2, int(n**0.5) + 1):
+    for i in range(2, int(n ** 0.5) + 1):
         if n % i == 0:
             return False
 
@@ -11,7 +11,7 @@ def is_perm(n, m):
         return True
 
 
-primes =[]
+primes = []
 for number in range(1000, 10000):
     if is_prime(number):
         primes.append(number)

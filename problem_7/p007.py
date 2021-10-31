@@ -1,5 +1,5 @@
 def is_prime(n):
-    for i in range(2, int(n**0.5) + 1):
+    for i in range(2, int(n ** 0.5) + 1):
         if n % i == 0:
             return False
 
@@ -18,6 +18,6 @@ def nth_prime(n):
 
 
 if __name__ == "__main__":
-#    import cProfile
+    #    import cProfile
     print("The 10 001st prime number is equal {}".format(nth_prime(10001)))
 #   cProfile.run('nth_prime(10001)', sort='cumtime')

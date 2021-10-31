@@ -1,10 +1,13 @@
 def memo(f):
     f.cache = {}
+
     def _f(*args):
         if args not in f.cache:
             f.cache[args] = f(*args)
         return f.cache[args]
+
     return _f
+
 
 @memo
 def Collatz_len(n):
@@ -29,8 +32,8 @@ def solution():
 
     return number
 
+
 if __name__ == "__main__":
-#    import cProfile
+    #    import cProfile
     print("The longest Collatz sequence is produced by number {}".format((solution())))
 #    cProfile.run('solution()', sort='cumtime')
-

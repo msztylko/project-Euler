@@ -17,11 +17,9 @@ def solution():
 
 
 if __name__ == "__main__":
-#    import cProfile
-    print("The smallest positive number that is evenly divisible "
-          "by all of the numbers from 1 to 20 is {}".format(solution()))
+    #    import cProfile
+    print(
+        "The smallest positive number that is evenly divisible "
+        "by all of the numbers from 1 to 20 is {}".format(solution())
+    )
 #    cProfile.run('solution()', sort='cumtime')
-
-
-
-

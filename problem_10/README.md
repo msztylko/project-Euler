@@ -50,7 +50,7 @@ def is_prime(n):
 
 was enough to improve the performance:
 
-```      
+```
 2148938 function calls in 7.392 seconds
 
    Ordered by: cumulative time

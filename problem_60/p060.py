@@ -1,5 +1,6 @@
-#TO DO
-#brute-force solution but it needs some work
+# TO DO
+# brute-force solution but it needs some work
+
 
 def is_prime(n):
     if n <= 1:

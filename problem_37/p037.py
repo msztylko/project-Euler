@@ -27,4 +27,3 @@ def is_truncatable_prime(n):
 
 if __name__ == "__main__":
     print(compute())
-

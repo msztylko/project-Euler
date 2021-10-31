@@ -5,11 +5,12 @@ def isPandigital(n):
     if sorted(str(n)) == compare:
         return True
 
+
 def isPrime(n):
     if n < 2:
         return False
     i = 2
-    while (i * i <= n):
+    while i * i <= n:
         if n % i == 0:
             return False
         i = i + 1
@@ -18,7 +19,9 @@ def isPrime(n):
 
 def main():
     maxnum = 0
-    for i in range(3, 7654321, 2): #7654321 is the largest possible solution, 8- and 9-digit pandigital numbers are divisible by 3
+    for i in range(
+        3, 7654321, 2
+    ):  # 7654321 is the largest possible solution, 8- and 9-digit pandigital numbers are divisible by 3
         if isPrime(i) and isPandigital(i) and i > maxnum:
             maxnum = i
 

@@ -18,5 +18,6 @@ def solution():
                 counter += 1
     print(counter)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     solution()

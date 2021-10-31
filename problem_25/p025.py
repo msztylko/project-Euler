@@ -1,4 +1,4 @@
-#This should work but I don't understand why it takes forever to compute it
+# This should work but I don't understand why it takes forever to compute it
 
 # def fibonacci(n):
 #     if n < 0:
@@ -16,12 +16,11 @@
 # print(i, fibonacci(i))
 
 
-#While this computes the solution in no time
+# While this computes the solution in no time
 a = 1
 b = 0
 n = 1
 while len(str(a)) != 1000:
-    a, b = a+b, a
+    a, b = a + b, a
     n = n + 1
 print("%d has 1000 digits, n = %d" % (a, n))
-

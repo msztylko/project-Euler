@@ -18,6 +18,6 @@ def solution():
 
 
 if __name__ == "__main__":
-#    import cProfile
+    #    import cProfile
     print("The sum of all the primes below two million is equal {}".format(solution()))
 #    cProfile.run('solution()', sort='cumtime')

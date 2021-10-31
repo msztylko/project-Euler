@@ -7,6 +7,7 @@ def abundantNumber(n):
     if divisors > n:
         return True
 
+
 limit = 28123
 abundantList = []
 for i in range(1, limit):
@@ -16,13 +17,10 @@ for i in range(1, limit):
 non_ab_sum = [x for x in range(28123)]
 
 for i in range(len(abundantList)):
-    for j in range(i,28123):
-        if abundantList[i]+abundantList[j] < 28123:
-            non_ab_sum[abundantList[i]+abundantList[j]] = 0
+    for j in range(i, 28123):
+        if abundantList[i] + abundantList[j] < 28123:
+            non_ab_sum[abundantList[i] + abundantList[j]] = 0
         else:
             break
 
 print(sum(non_ab_sum))
-
-
-

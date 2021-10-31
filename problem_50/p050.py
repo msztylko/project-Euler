@@ -6,7 +6,7 @@ def euler(n):
         if not candidates[i]:
             continue
 
-        candidates[2 * i::i] = [None] * (n // i - 1)
+        candidates[2 * i :: i] = [None] * (n // i - 1)
 
     return [i for i in candidates[2:] if i]
 
@@ -33,8 +33,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-

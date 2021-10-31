@@ -2,14 +2,16 @@ def is_prime(n):
     if n < 2:
         return False
     i = 2
-    while (i * i <= n):
+    while i * i <= n:
         if n % i == 0:
             return False
         i = i + 1
     return True
 
+
 def rotate(s):
     return [s[n:] + s[:n] for n in range(1, len(s))]
+
 
 primes = []
 for i in range(2, 1000001):

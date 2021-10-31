@@ -15,6 +15,7 @@ def equalFactorial(n):
 
         return True
 
+
 def solution():
     sum = 0
     for i in range(3, 1000000):
@@ -23,6 +24,9 @@ def solution():
 
     return sum
 
+
 if __name__ == "__main__":
-    print("The sum of all numbers which are equal to the sum of "
-          "the factorial of their digits is equal {}". format(solution()))
+    print(
+        "The sum of all numbers which are equal to the sum of "
+        "the factorial of their digits is equal {}".format(solution())
+    )

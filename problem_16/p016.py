@@ -8,4 +8,8 @@ def sum_digits(number):
 
 
 if __name__ == "__main__":
-    print("The sum of the digits of the number 2^1000 is equal {}".format(sum_digits(2**1000)))
+    print(
+        "The sum of the digits of the number 2^1000 is equal {}".format(
+            sum_digits(2 ** 1000)
+        )
+    )

@@ -13,7 +13,7 @@ def number_prime_factors(n):
 
 
 # iterator
-j = 2*3*5*7
+j = 2 * 3 * 5 * 7
 
 
 while True:
@@ -24,6 +24,6 @@ while True:
             if number_prime_factors(j) == 4:
                 j += 1
                 if number_prime_factors(j) == 4:
-                    print(j-3)
+                    print(j - 3)
                     break
     j += 1
